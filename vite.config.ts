@@ -6,5 +6,6 @@ import vike from "vike/plugin";
 import { defineConfig } from "vite";
 
 export default defineConfig({
-  plugins: [vike(), react(), tailwindcss()],
+  base: "/mentors-arts/",
+  plugins: [vike({prerender:true}), react(), tailwindcss()],
 });
