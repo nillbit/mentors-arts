@@ -5,13 +5,14 @@ import Gallery from '../../components/Gallery'
 import Partners from '../../components/Partners'
 import Contactus from '../../components/Contactus'
 import Footer from '../../components/Footer'
+import logo_yellow from "../assets/logo_yellow.svg"
 
 function Page() {
   return (
     <div className='bg-white'>
     <div className='w-full h-[60px] bg-[#000] shadow-md flex items-center justify-between'>
        <div className='flex gap-2 items-centere justify-center'>
-        <img src={"../assets/logo_yellow.svg"} alt="logo" width={60} height={60}/>
+        <img src={logo_yellow} alt="logo" width={60} height={60}/>
        <div className='flex items-center'><h3 className='font-bold primary'>Mentors Arts Centre</h3></div>
     </div>
     <div className='mx-10'>
