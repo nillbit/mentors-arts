@@ -5,7 +5,7 @@ import Gallery from '../../components/Gallery'
 import Partners from '../../components/Partners'
 import Contactus from '../../components/Contactus'
 import Footer from '../../components/Footer'
-import logo_yellow from "../assets/logo_yellow.svg"
+import logo_yellow from "../../assets/logo_yellow.svg"
 
 function Page() {
   return (
