@@ -1,5 +1,7 @@
 import { ArrowDown, Quote, QuoteIcon, TextQuote } from 'lucide-react'
 import React from 'react'
+import hero_pic1 from "../assets/hero_pic1.webp";
+import hero_pic2 from "../assets/hero_pic2.webp";
 
 function Hero() {
   return (
@@ -18,8 +20,8 @@ function Hero() {
       </div>
       <div className='absolute bg-gradient-to-b from-[#1E1E1E] to-[#FFF] opacity-89 w-full h-screen top-0 left-0 right-0'></div>
       <div className='flex w-full h-screen'>
-        <img src="../assets/hero_pic1.webp" className='w-full' alt="picture for hero page" />
-         <img src="../assets/hero_pic2.webp" className='w-full' alt="picture for hero page" />
+        <img src={hero_pic1} className='w-full' alt="picture for hero page" />
+         <img src={hero_pic2} className='w-full' alt="picture for hero page" />
       </div>
 
     </div>
