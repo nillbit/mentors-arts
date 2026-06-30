@@ -1,4 +1,4 @@
-// https://vike.dev/Head
+
 
 import logoUrl from "../assets/logo.svg";
 
